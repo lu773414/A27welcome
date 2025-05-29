@@ -13,7 +13,7 @@ createApp({
         const chooseAnswer = (value) => {
             choose.value[page.value-1] = value;
             page.value = page.value +1;
-            answer.value = `./image/${choose.value.join('')}.png`
+            answer.value = `./${choose.value.join('')}.png`
         }
 
         onMounted(() => {
