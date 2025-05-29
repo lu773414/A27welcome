@@ -17,10 +17,6 @@ createApp({
         }
 
         onMounted(() => {
-            setTimeout(() => {
-                setPage(2)
-                console.log("1秒後自動跳到第2頁")
-            }, 1500)
         })
 
         return {
