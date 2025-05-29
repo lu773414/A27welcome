@@ -20,20 +20,20 @@
         </transition>
         <transition name="fade">
             <div class="welcome" v-if="page == 2">
-                <img src="./image/question1.png" alt="">
-                <img src="./image/1-A (裁).png" class="button1" v-on:click="chooseAnswer('A')">
-                <img src="./image/1-B (裁).png" class="button2" v-on:click="chooseAnswer('B')">
+                <img src="./question1.png" alt="">
+                <img src="./1-A (裁).png" class="button1" v-on:click="chooseAnswer('A')">
+                <img src="./1-B (裁).png" class="button2" v-on:click="chooseAnswer('B')">
             </div>
         </transition>
         <div class="welcome" v-if="page == 3">
-            <img src="./image/question2.png" alt="">
-            <img src="./image/2-A (裁).png" class="button1" v-on:click="chooseAnswer('A')">
-            <img src="./image/2-B (裁).png" class="button2" v-on:click="chooseAnswer('B')">
+            <img src="./question2.png" alt="">
+            <img src="./2-A (裁).png" class="button1" v-on:click="chooseAnswer('A')">
+            <img src="./2-B (裁).png" class="button2" v-on:click="chooseAnswer('B')">
         </div>
         <div class="welcome" v-if="page == 4">
-            <img src="./image/question3.png" alt="">
-            <img src="./image/3-A (裁).png" class="button1" v-on:click="chooseAnswer('A')">
-            <img src="./image/3-B (裁).png" class="button2" v-on:click="chooseAnswer('B')">
+            <img src="./question3.png" alt="">
+            <img src="./3-A (裁).png" class="button1" v-on:click="chooseAnswer('A')">
+            <img src="./3-B (裁).png" class="button2" v-on:click="chooseAnswer('B')">
         </div>
         <div class="welcome" v-if="page == 5">
             <img :src="answer" alt="">
