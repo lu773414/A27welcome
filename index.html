@@ -15,8 +15,9 @@
 <body>
     <div id="app" class="wrap">
         <transition name="fade">
-            <div class="welcome" v-if="page == 1" v-on:click="setPage(2)">
+            <div class="welcome" v-if="page == 1" >
                 <img src="./welcome.png" alt="">
+                <div class="button2 start" v-on:click="setPage(2)">開始遊戲</div>
             </div>
         </transition>
         <transition name="fade">
