@@ -40,6 +40,14 @@ body {
     cursor: pointer;
 }
 
+.start {
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+
 /* 淡入淡出過渡 */
 .fade-enter-active, .fade-leave-active {
   transition: opacity 0.2s ease;
